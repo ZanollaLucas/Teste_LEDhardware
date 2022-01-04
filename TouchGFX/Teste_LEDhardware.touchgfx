@@ -1,0 +1,257 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "X": -20,
+            "Y": -13,
+            "Width": 828,
+            "Height": 506,
+            "Color": {
+              "Red": 5,
+              "Green": 133,
+              "Blue": 24
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonColor",
+            "X": 315,
+            "Y": 210,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_JMP6",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonLED",
+            "X": 139,
+            "Y": 369,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_ZJAX",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "X": 603,
+            "Y": 374,
+            "Width": 50,
+            "Height": 50,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box4_1",
+            "X": 481,
+            "Y": 374,
+            "Width": 122,
+            "Height": 50,
+            "Color": {
+              "Red": 153,
+              "Green": 153,
+              "Blue": 153
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 498,
+            "Y": 387,
+            "Width": 89,
+            "Height": 25,
+            "TextId": "__SingleUse_QYVC",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "countB",
+            "X": 609,
+            "Y": 387,
+            "Width": 38,
+            "Height": 25,
+            "TextId": "counter",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_JR7C",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box4_1_1",
+            "X": 481,
+            "Y": 71,
+            "Width": 122,
+            "Height": 50,
+            "Color": {
+              "Red": 153,
+              "Green": 153,
+              "Blue": 153
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1",
+            "X": 603,
+            "Y": 71,
+            "Width": 50,
+            "Height": 50,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_1",
+            "X": 498,
+            "Y": 84,
+            "Width": 90,
+            "Height": 25,
+            "TextId": "__SingleUse_E6FP",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "countR",
+            "X": 609,
+            "Y": 84,
+            "Width": 38,
+            "Height": 25,
+            "TextId": "counterR",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_7MQO",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonColor"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "BoxCollor"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonLED"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "LEDScreen"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "Teste_LEDhardware",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "24": "LCD24bpp",
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [
+      {
+        "Name": "HWPush"
+      },
+      {
+        "Key": 1,
+        "Name": "NONE"
+      }
+    ],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../STM32F469I-disco.ioc --platform=m4",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j10",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile -j10 flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F4"
+  },
+  "Version": "4.18.1",
+  "CreatedBy": "4.18.1"
+}

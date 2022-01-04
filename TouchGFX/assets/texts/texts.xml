@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.18.1">
+  <Texts>
+    <Text Id="__SingleUse_JMP6" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Change Color</Translation>
+    </Text>
+    <Text Id="__SingleUse_ZJAX" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">LED Blue</Translation>
+    </Text>
+    <Text Id="__SingleUse_QYVC" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Clicks LB</Translation>
+    </Text>
+    <Text Id="__SingleUse_JR7C" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">0</Translation>
+    </Text>
+    <Text Id="counter" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;number&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_E6FP" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Clicks LR</Translation>
+    </Text>
+    <Text Id="__SingleUse_7MQO" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">0</Translation>
+    </Text>
+    <Text Id="counterR" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;number&gt;</Translation>
+    </Text>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" WildcardCharacterRanges="0-9" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

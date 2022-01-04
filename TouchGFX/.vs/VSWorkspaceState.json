@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\generated\\gui_generated",
+    "\\generated\\gui_generated\\include",
+    "\\generated\\gui_generated\\include\\gui_generated",
+    "\\generated\\gui_generated\\include\\gui_generated\\screen1_screen",
+    "\\gui",
+    "\\gui\\include",
+    "\\gui\\include\\gui",
+    "\\gui\\include\\gui\\screen1_screen",
+    "\\gui\\src",
+    "\\gui\\src\\screen1_screen"
+  ],
+  "SelectedNode": "\\generated",
+  "PreviewInSolutionExplorer": false
+}
