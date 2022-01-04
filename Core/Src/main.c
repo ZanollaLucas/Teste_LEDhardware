@@ -36,8 +36,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define LED_red 0x02
-#define LED_blue 0x01
+
 /* DISPLAY */
 #define LCD_ORIENTATION_LANDSCAPE 0x01
 /* USER CODE END PD */
@@ -717,10 +716,9 @@ static void MX_GPIO_Init(void)
 
 void Toggle_LEDblue(void) {
 	HAL_GPIO_TogglePin(GPIOK, GPIO_PIN_3);
-//	LEDs ^= LED_blue;
 }
 
-/*
+/*    //FUNÇÃO EXEMPLO PARA EXTERNAL INTERRUPT
  	void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 	if(GPIO_Pin == 0){
 		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_5);
@@ -749,7 +747,6 @@ void StartDefaultTask(void *argument)
 	  if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0)==1)
 	  {
 		  HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_5);
-		 // LEDs ^= LED_red;
 		  var1++;
 		  LED_TFT = 0x01;
 	  }

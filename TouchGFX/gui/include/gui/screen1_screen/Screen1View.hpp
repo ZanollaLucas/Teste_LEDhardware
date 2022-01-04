@@ -19,7 +19,6 @@ public:
         box1.invalidate(); //usar o invalidate pra for�ar a mudan�a na tela
     }
 
-    void updateGFXElements();
 
 protected:
 

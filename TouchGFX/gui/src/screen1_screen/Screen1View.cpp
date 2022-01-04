@@ -33,20 +33,10 @@ void Screen1View::LEDScreen()
 void Screen1View::ColorBack(int var1)
 {
    	box1.setColor(box1.getColor() + 1234); //pega a cor e modifica diminuindo o 1234
-    //counterR ++;
+    //counterR ++; // pode ser feita a contagem aqui, mas para testar a transmição de variável, a contagem foi feita no main.c e transmitida como var1 até aqui
    	counterR = var1;
    	Unicode::snprintf(countRBuffer, 3, "%d", counterR);
     countR.invalidate();
-    box1.invalidate(); //usar o invalidate pra for�ar a mudan�a na tela
+    box1.invalidate(); //usar o invalidate pra forçar a mudança na tela
 
-   // Unicode::snprintf(touchgfx::TypedText(T___SINGLEUSE_1T40).getText(), 3, "%d", countR);
-   // textValueR.invalidate();
 }
-
-void Screen1View::updateGFXElements()
-{
-    //Counter text area GFX uptade.
-
-   // textValueB.invalidate();
-}
-
