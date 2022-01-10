@@ -32,7 +32,7 @@ void Screen1View::LEDScreen()
 
 void Screen1View::ColorBack(int var1)
 {
-   	box1.setColor(box1.getColor() + 1234); //pega a cor e modifica diminuindo o 1234
+   	box1.setColor(box1.getColor() + 1234); //pega a cor e modifica aumentando o 1234 do valor RGB da tela
     //counterR ++; // pode ser feita a contagem aqui, mas para testar a transmição de variável, a contagem foi feita no main.c e transmitida como var1 até aqui
    	counterR = var1;
    	Unicode::snprintf(countRBuffer, 3, "%d", counterR);
